@@ -1,5 +1,5 @@
 import-module activedirectory  
-$domain = "ymcafoxcities.org"  
+$domain = "domain"  
 $DaysInactive = 90  
 $time = (Get-Date).Adddays(-($DaysInactive)) 
   
